@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DBE67F0F-C749-43F3-BA9E-F100A48BFD02</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyFavBands</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4141FC754F0CF2391573532FC321C70D85B54654</key>
+		<string>https://github.com/ioscourse/Week-6-Screen-Rotation-Master-Detail.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyFavBands/MyFavBands.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4141FC754F0CF2391573532FC321C70D85B54654</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ioscourse/Week-6-Screen-Rotation-Master-Detail.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4141FC754F0CF2391573532FC321C70D85B54654</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4141FC754F0CF2391573532FC321C70D85B54654</string>
+			<key>IDESourceControlWCCName</key>
+			<string>week6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

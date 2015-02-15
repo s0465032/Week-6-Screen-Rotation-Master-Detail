@@ -23,7 +23,6 @@
 		368766C91A8FA7E70026EE69 /* Little Big Town.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766C11A8FA7E70026EE69 /* Little Big Town.jpg */; };
 		368766CA1A8FA7E70026EE69 /* Miranda Lambert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766C21A8FA7E70026EE69 /* Miranda Lambert.jpg */; };
 		368766CC1A8FB4410026EE69 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 368766CB1A8FB4410026EE69 /* Main.png */; };
-		368766CE1A8FB7D60026EE69 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 368766CD1A8FB7D60026EE69 /* ReadMe.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +56,6 @@
 		368766C11A8FA7E70026EE69 /* Little Big Town.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Little Big Town.jpg"; sourceTree = "<group>"; };
 		368766C21A8FA7E70026EE69 /* Miranda Lambert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Miranda Lambert.jpg"; sourceTree = "<group>"; };
 		368766CB1A8FB4410026EE69 /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
-		368766CD1A8FB7D60026EE69 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		3687668A1A8F97200026EE69 = {
 			isa = PBXGroup;
 			children = (
-				368766CD1A8FB7D60026EE69 /* ReadMe.rtf */,
 				368766BA1A8FA7C50026EE69 /* images */,
 				368766951A8F97200026EE69 /* MyFavBands */,
 				368766AD1A8F97200026EE69 /* MyFavBandsTests */,
@@ -234,7 +231,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				368766CC1A8FB4410026EE69 /* Main.png in Resources */,
-				368766CE1A8FB7D60026EE69 /* ReadMe.rtf in Resources */,
 				368766C91A8FA7E70026EE69 /* Little Big Town.jpg in Resources */,
 				368766C61A8FA7E70026EE69 /* Joe Cocker.jpg in Resources */,
 				368766A01A8F97200026EE69 /* Main.storyboard in Resources */,
@@ -459,6 +455,7 @@
 				368766B61A8F97200026EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		368766B71A8F97200026EE69 /* Build configuration list for PBXNativeTarget "MyFavBandsTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +464,7 @@
 				368766B91A8F97200026EE69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
