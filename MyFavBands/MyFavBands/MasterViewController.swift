@@ -68,7 +68,7 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow() {
-//8) Replace object with listArray
+//8) Replace object with listArray and NSDate with NSString
                 let object = listArray[indexPath.row] as NSString
                 let controller = (segue.destinationViewController as UINavigationController).topViewController as DetailViewController
                 
@@ -79,6 +79,8 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
                 
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 controller.navigationItem.leftItemsSupplementBackButton = true
+                
+//10) Add to hide Menu after tap
                 self.splitViewController?.toggleMasterView()
             }
         }
@@ -91,7 +93,10 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       // return objects.count
+ //11 Comment Out
+        
+        // return objects.count
+//12) Add Code
         return listArray.count
         
     }
@@ -104,13 +109,13 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
         return cell
     }
 
-//10) Comment out override func tableView
+//13) Comment out override func tableView
 //    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
 //        // Return false if you do not want the specified item to be editable.
 //        return true
 //    }
 
-//11) Comment out override func tableView(tableView
+//14) Comment out override func tableView(tableView
 //    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
 //        if editingStyle == .Delete {
 //            listArray.removeObjectAtIndex(indexPath.row)
@@ -122,6 +127,7 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
 
 
 }
+//15) Add extenson to hide menu after tap
 extension UISplitViewController {
     func toggleMasterView() {
         let barButtonItem = self.displayModeButtonItem()
