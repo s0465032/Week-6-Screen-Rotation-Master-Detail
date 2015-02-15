@@ -23,6 +23,12 @@
 		368766C91A8FA7E70026EE69 /* Little Big Town.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766C11A8FA7E70026EE69 /* Little Big Town.jpg */; };
 		368766CA1A8FA7E70026EE69 /* Miranda Lambert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368766C21A8FA7E70026EE69 /* Miranda Lambert.jpg */; };
 		368766CC1A8FB4410026EE69 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 368766CB1A8FB4410026EE69 /* Main.png */; };
+		36BC61CE1A90A742001F908B /* logo291.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61CA1A90A742001F908B /* logo291.png */; };
+		36BC61CF1A90A742001F908B /* logo292.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61CB1A90A742001F908B /* logo292.png */; };
+		36BC61D01A90A742001F908B /* logo401.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61CC1A90A742001F908B /* logo401.png */; };
+		36BC61D31A90A777001F908B /* logo402.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61D21A90A777001F908B /* logo402.png */; };
+		36BC61D51A90A8AF001F908B /* logo76.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61D41A90A8AF001F908B /* logo76.png */; };
+		36BC61D71A90A953001F908B /* logo152.png in Resources */ = {isa = PBXBuildFile; fileRef = 36BC61D61A90A953001F908B /* logo152.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,12 @@
 		368766C11A8FA7E70026EE69 /* Little Big Town.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Little Big Town.jpg"; sourceTree = "<group>"; };
 		368766C21A8FA7E70026EE69 /* Miranda Lambert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Miranda Lambert.jpg"; sourceTree = "<group>"; };
 		368766CB1A8FB4410026EE69 /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
+		36BC61CA1A90A742001F908B /* logo291.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo291.png; sourceTree = "<group>"; };
+		36BC61CB1A90A742001F908B /* logo292.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo292.png; sourceTree = "<group>"; };
+		36BC61CC1A90A742001F908B /* logo401.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo401.png; sourceTree = "<group>"; };
+		36BC61D21A90A777001F908B /* logo402.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo402.png; sourceTree = "<group>"; };
+		36BC61D41A90A8AF001F908B /* logo76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo76.png; sourceTree = "<group>"; };
+		36BC61D61A90A953001F908B /* logo152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo152.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,7 @@
 		3687668A1A8F97200026EE69 = {
 			isa = PBXGroup;
 			children = (
+				36BC61C91A90A733001F908B /* icons */,
 				368766BA1A8FA7C50026EE69 /* images */,
 				368766951A8F97200026EE69 /* MyFavBands */,
 				368766AD1A8F97200026EE69 /* MyFavBandsTests */,
@@ -148,6 +161,19 @@
 				368766C21A8FA7E70026EE69 /* Miranda Lambert.jpg */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		36BC61C91A90A733001F908B /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				36BC61D61A90A953001F908B /* logo152.png */,
+				36BC61D41A90A8AF001F908B /* logo76.png */,
+				36BC61D21A90A777001F908B /* logo402.png */,
+				36BC61CA1A90A742001F908B /* logo291.png */,
+				36BC61CB1A90A742001F908B /* logo292.png */,
+				36BC61CC1A90A742001F908B /* logo401.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,16 +258,22 @@
 			files = (
 				368766CC1A8FB4410026EE69 /* Main.png in Resources */,
 				368766C91A8FA7E70026EE69 /* Little Big Town.jpg in Resources */,
+				36BC61D51A90A8AF001F908B /* logo76.png in Resources */,
 				368766C61A8FA7E70026EE69 /* Joe Cocker.jpg in Resources */,
 				368766A01A8F97200026EE69 /* Main.storyboard in Resources */,
 				368766C41A8FA7E70026EE69 /* Band Perry.jpg in Resources */,
+				36BC61D31A90A777001F908B /* logo402.png in Resources */,
 				368766C31A8FA7E70026EE69 /* 38 Special.jpg in Resources */,
+				36BC61CF1A90A742001F908B /* logo292.png in Resources */,
 				368766A51A8F97200026EE69 /* LaunchScreen.xib in Resources */,
 				368766C51A8FA7E70026EE69 /* Eagles.jpg in Resources */,
 				368766C81A8FA7E70026EE69 /* Leonard Skynard.jpg in Resources */,
 				368766CA1A8FA7E70026EE69 /* Miranda Lambert.jpg in Resources */,
 				368766C71A8FA7E70026EE69 /* Journey.jpg in Resources */,
+				36BC61CE1A90A742001F908B /* logo291.png in Resources */,
 				368766A21A8F97200026EE69 /* Images.xcassets in Resources */,
+				36BC61D01A90A742001F908B /* logo401.png in Resources */,
+				36BC61D71A90A953001F908B /* logo152.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
