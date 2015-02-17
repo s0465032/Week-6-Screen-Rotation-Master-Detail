@@ -35,7 +35,7 @@ class MasterViewController: UITableViewController {
         
 //4) Populate Array of band names from images you downloaded. Names must match file names without file extenstion .jpg
         
-listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Miranda Lambert", "Little Big Town","Band Perry"]
+listArray = ["Fall Out Boy","Maroon 5","Queen","Journey", "Leonard Skynard","Eagles", "Little Big Town","Band Perry"]
         
 //5) Comment out Add Button - 2 lines
         
@@ -105,7 +105,7 @@ listArray = ["Joe Cocker","Leonard Skynard","Eagles","Journey", "38 Special","Mi
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
 
         let object = listArray[indexPath.row] as NSString
-        cell.textLabel.text = object.description
+        cell.textLabel?.text = object.description
         return cell
     }
 
